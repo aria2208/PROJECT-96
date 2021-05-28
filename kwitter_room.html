@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Project-94</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+<script src="kwitter_room.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="page">
+	<button class="btn btn-danger" id="logoutbutton" onclick="logout()">LOG OUT</button>
+	<br><br><br>
+<div class="container" id="div2">
+	
+	<h3 id="user_name">WELCOME</h3>
+
+		<div class="form-group">
+		  <label >Room Name:</label>
+          <input type="text" id="room_name" class="form-control" placeholder="ROOM NAME">
+		</div>
+
+		<button class="btn btn-success" onclick="addRoom()">Add Room Name</button>
+
+		<br><br>
+     <div>
+        <h2 class="color_white">ROOMS</h2>
+	 </div>
+
+
+	 <div id="output">
+
+	</div>
+	
+</div>
+
+
+<script src="kwitter_room.js"></script>
+
+</body>
+</html>
